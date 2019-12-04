@@ -1,0 +1,13 @@
+<a [routerLink]="['accounts', account.id]">
+  <div class="main">
+    <div class="primary-row">
+      <span class="name"> {{account.alias}} </span>
+      <span class="balance"> {{ account.balance}} {{account.currency}} </span>
+    </div>
+    <div class="secondary-row">
+      <span class="type"> {{account.type}} </span>
+      <span class="balanceType"> {{balanceType}} </span>
+    </div>
+  </div>
+</a>
+

@@ -15,11 +15,9 @@ exports.config = {
   capabilities: {
     browserName: 'chrome'
   },
-  directConnect: true,
+  directConnect: false,
   seleniumAddress: process.env['SELENIUM_ADDRESS'] || "http://localhost:4444/wd/hub",
-  baseUrl: process.env['CONTRATACION_AUTOS_BASEURL'] || 'http://localhost:4200/',
-
-  baseUrl: process.env.E3E_TEST_BASEURL | 'http://localhost:4200/',
+  baseUrl: process.env.E2E_TEST_BASEURL | 'http://localhost:4200/',
 
   framework: 'jasmine',
   jasmineNodeOpts: {

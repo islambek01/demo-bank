@@ -1,4 +1,4 @@
-# Demobank
+# Demobank [![Build Status](https://travis-ci.com/migalons/demo-bank.svg?branch=master)](https://travis-ci.com/migalons/demo-bank)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
